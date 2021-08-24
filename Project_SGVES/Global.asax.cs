@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Security;
 using System.Web.SessionState;
 
-namespace Project_SGVES
+namespace Project_SGVS
 {
     public class Global : System.Web.HttpApplication
     {
