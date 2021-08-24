@@ -1,0 +1,6 @@
+C:\Users\r.lisboa\Desktop\SGVES\SGVS.Entities\obj\Debug\SGVS.Entities.csproj.CoreCompileInputs.cache
+C:\Users\r.lisboa\Desktop\SGVES\SGVS.Entities\bin\Debug\SGVS.Entities.dll
+C:\Users\r.lisboa\Desktop\SGVES\SGVS.Entities\bin\Debug\SGVS.Entities.pdb
+C:\Users\r.lisboa\Desktop\SGVES\SGVS.Entities\obj\Debug\SGVS.Entities.dll
+C:\Users\r.lisboa\Desktop\SGVES\SGVS.Entities\obj\Debug\SGVS.Entities.pdb
+C:\Users\r.lisboa\Desktop\SGVES\SGVS.Entities\obj\Debug\SGVS.Entities.csprojAssemblyReference.cache
