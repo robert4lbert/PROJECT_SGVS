@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="tl_SiteMasterPage.master.cs" Inherits="Project_SGVES.TelasSistema.tl_SiteMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <%--Styles--%>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <%--Swal--%>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.33.1/sweetalert2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.33.1/sweetalert2.all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.33.1/sweetalert2.all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.33.1/sweetalert2.js"></script>
+    <%--DataTable--%>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.css">
+    <link href="../Styles/Styles.css" rel="stylesheet" />
+    <title>SGVS</title>
+</head>
+<body>
+    <div class="header">
+        <h1>
+            <img src="../../../Styles/SystemImage/vote_png.png" style="width: 150px;" />
+        </h1>
+        <p style="font-size: 25px;">Sistema de Gestão para Votação de Síndicos - SGVS</p>
+    </div>
+    <div class="navbar BarraSeparadora">
+        <div id="MenuTop">
+            <a href="/TelasSistemas/tl_CadEleitor.aspx">Eleitores</a>
+            <a href="/TelasSistemas/tl_CadCandidato.aspx">Candidatos</a>
+            <a href="/TelasSistemas/tl_Votacao.aspx">Votação</a>
+        </div>
+    </div>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <script src="../../Scripts/jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="../../Scripts/bootstrap.js" type="text/javascript"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.js"></script>
+</body>
+</html>
